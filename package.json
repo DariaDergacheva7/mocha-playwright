@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha specs/**/*.spec.js --require @babel/register",
 	"qa": "mocha --config .mocharc.json",
-	"pixlr": "mocha --config .mocharc_px.json"
+	"pixlr": "mocha --config .mocharc_px.json",
+	"bro": "mocha --config .mocharc_bro.json"
   },
   "keywords": [],
   "author": "",

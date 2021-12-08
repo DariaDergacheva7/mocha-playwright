@@ -1,0 +1,12 @@
+{
+  "require": "@babel/register",
+  "diff": true,
+  "spec": "specs/AdminBro/*.spec.js",
+  "extension": ["js", "cjs", "mjs"],
+  "package": "./package.json",
+ // "reporter": "mocha-multi-reporters",
+ // "reporterOptions" : ["configFile=reporterConfig.json"],
+ // "slow": "75",
+  "timeout": "50000",
+  "ui": "bdd"
+}
